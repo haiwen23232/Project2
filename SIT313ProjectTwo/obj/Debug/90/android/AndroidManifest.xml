@@ -12,6 +12,7 @@
       </intent-filter>
     </activity>
     <activity android:label="Register" android:theme="@style/AppTheme" android:name="md5736baeab63f731bc7d1039253d7d84a0.Register" />
+    <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md5736baeab63f731bc7d1039253d7d84a0.NavMain" />
     <service android:name="md5dcb6eccdc824e0677ffae8ccdde42930.KeepAliveService" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.BatteryBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.EnergySaverBroadcastReceiver" />

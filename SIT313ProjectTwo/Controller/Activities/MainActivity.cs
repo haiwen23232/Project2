@@ -59,7 +59,8 @@ namespace SIT313ProjectTwo
             }
             else
             {
-                Toast.MakeText(this,"Click login",ToastLength.Long).Show();
+                Intent intent = new Intent(this, typeof(NavMain));
+                StartActivity(intent);
             }
         }
 
