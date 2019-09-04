@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="shop.SignUp">
+    <ContentPage.Content>
+
+        <ScrollView>
+            <StackLayout Margin="20">
+                <Label
+                    Text="Sign up"
+                    Margin="0,20"
+                    FontSize="32" />
+
+                <Label Text="User name"/>
+                <Entry x:Name="SignupUserName" />
+
+                <Label Text="Email"/>
+                <Entry x:Name="SignupEmail" />
+
+                <Label Text="Password" />
+                <Entry x:Name="SignupPassword" IsPassword="True" />
+
+                <Label Text="Confirm password" />
+                <Entry x:Name="SignupPasswordConfirm" IsPassword="True" />
+
+                <StackLayout
+                    Orientation="Horizontal"
+                    HorizontalOptions="Center">
+                    <Button
+                        x:Name="SignupBtn"
+                        Text="Sign up"
+                        Margin="20,10"
+                        Clicked="SignUpClick"/>
+                    <Button
+                        x:Name="SignupReset"
+                        Text="Reset"
+                        Margin="20,10"
+                        Clicked="Reset"/>
+
+                </StackLayout>
+            </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

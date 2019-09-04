@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="shop.MainPage">
+    <ScrollView>
+
+        <StackLayout Margin="30">
+        <!-- Place new controls here -->
+            <Label
+                Text="Welcome" 
+               HorizontalOptions="Center"
+                Margin="20"
+                FontSize="32" />
+
+            <Label
+                Text="User Name"/>
+            <Entry x:Name="LoginUserName"/>
+
+            <Label Text="Password"/>
+
+            <Entry
+                x:Name="LoginPassword"
+                IsPassword="True"/>
+
+            <Button
+                x:Name="LoginReset"
+                Text="Reset"
+                Clicked="Reset"
+                HorizontalOptions="Center"/>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button
+                    x:Name="LoginBtn"
+                    Text="Login"
+                    Clicked="Login"
+                    Margin="20,10"/>
+
+            <Button
+                x:Name="LoginSignUp"
+                Text="Sign up"
+                Margin="20,10"
+                Clicked="SignUp"/>
+        </StackLayout>
+
+    </StackLayout>
+
+    </ScrollView>
+
+    
+
+</ContentPage>
