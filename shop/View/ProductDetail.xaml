@@ -9,6 +9,22 @@
     </NavigationPage.TitleView>
 
     <ContentPage.Content>
-        <Label x:Name="ProductName" FontSize="18"/>
+        <StackLayout Margin="10,20">
+            <Label x:Name="ProductName" FontSize="18" Text="product" HorizontalOptions="Center" />
+            <Label x:Name="ProductPrice" FontSize="14" Text="price" HorizontalOptions="Center" />
+
+            <Image Source="basket.png" />
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="Quantity: " Margin="0,5"/>
+
+                <Entry Placeholder="Quantity" x:Name="quantityEntry" Keyboard="Numeric"/>
+            </StackLayout>
+
+            <Button
+                Text="Add to cart"
+                HorizontalOptions="Center"
+                Clicked="AddToCart"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

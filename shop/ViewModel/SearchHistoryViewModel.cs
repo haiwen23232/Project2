@@ -1,22 +1,48 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Threading.Tasks;
+using shop.Data;
 using shop.Model;
 
 namespace shop.ViewModel
 {
-    public class SearchHistoryViewModel
+    public class SearchHistoryViewModel : INotifyPropertyChanged 
     {
+        HistoryDatabase _database = new HistoryDatabase();
 
-        public List<SearchHistory> histories { get; set; }
+        public event PropertyChangedEventHandler PropertyChanged;
 
-        public SearchHistoryViewModel()
+        private ObservableCollection<SearchHistory> _historyList;
+
+        public ObservableCollection<SearchHistory> HistoryList
         {
-            histories = new List<SearchHistory>()
+            get { return _historyList; }
+            set
             {
-                new SearchHistory(){History = "Adidas" },
-                new SearchHistory(){History = "t-s" },
-                new SearchHistory(){History = "sneaker" }
-            };
+                this._historyList = value;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("HistoryList"));
+            }
         }
+
+        public async Task FetchDataAsync(int userId)
+        {
+            var list = await _database.GetHistoryByUserAsync(userId);
+            HistoryList = new ObservableCollection<SearchHistory>(list);
+        }
+
+        public async Task AddHistory(SearchHistory searchHistory) {
+            await _database.AddHistoryAsync(searchHistory);
+        }
+
+        public async Task DeleteByUser(int userId)
+        {
+            await _database.DeleteByUser(userId);
+        }
+
+        public SearchHistoryViewModel(int userId) {
+            FetchDataAsync(userId);
+        }
+        
     }
 }

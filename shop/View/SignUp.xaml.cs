@@ -33,7 +33,7 @@ namespace shop
         private void SignUpClick(object o, System.EventArgs e)
         {
             this._userName = this.SignupUserName.Text;
-            this._email = this.SignupEmail.Text;
+            this._email = this.SignupEmail.Text.ToLower();
             this._password = this.SignupPassword.Text;
             this._passwordConfirm = this.SignupPasswordConfirm.Text;
 

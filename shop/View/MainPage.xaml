@@ -38,12 +38,12 @@
                     Clicked="Login"
                     Margin="20,10"/>
 
-            <Button
-                x:Name="LoginSignUp"
-                Text="Sign up"
-                Margin="20,10"
-                Clicked="SignUp"/>
-        </StackLayout>
+                <Button
+                    x:Name="LoginSignUp"
+                    Text="Sign up"
+                    Margin="20,10"
+                    Clicked="SignUp"/>
+            </StackLayout>
 
     </StackLayout>
 

@@ -64,3 +64,9 @@
 /Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/shop.iOS.csproj.CopyComplete
 /Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/shop.iOS.exe
 /Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/shop.iOS.pdb
+/Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/Plugin.MtSql.dll
+/Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+/Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.sqlite3.dll

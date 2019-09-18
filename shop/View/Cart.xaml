@@ -28,7 +28,6 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

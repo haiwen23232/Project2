@@ -31,6 +31,11 @@ namespace shop.ViewModel
             CartsList = new ObservableCollection<Cart>(list);
         }
 
+        public async Task CreateCart(Cart cart)
+        {
+            await cartsManager.CreateCart(cart);
+        }
+
         public CartViewModel()
         { 
         }
