@@ -2,20 +2,26 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="shop.View.Category">
+    xmlns:local="clr-namespace:shop.ViewModel"
+    x:Class="shop.View.Category" >
+    <NavigationPage.TitleView>
+        <Label Text=" Category" FontSize="24" VerticalOptions="Center"/>
+    </NavigationPage.TitleView>
+
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="20" Orientation="Vertical" >
-                <Label Text="Category" Margin="0,20" FontSize="32" />
+                <StackLayout.BindingContext>
+                    <local:CategoryViewModel />
+                </StackLayout.BindingContext>
 
-                <ListView x:Name="CategoryListView">
+                <ListView x:Name="CategoryListView" ItemsSource="{Binding CategoriesList}" ItemTapped="OnItemSelected">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <TextCell Text="{Binding CategoryName}" TextColor="Purple" />
+                            <TextCell Text="{Binding Name}" TextColor="Red" />
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

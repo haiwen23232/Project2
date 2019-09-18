@@ -8,11 +8,13 @@ namespace shop.View
     public partial class Cart : ContentPage
     {
         private CartViewModel vm;
-        public Cart()
+
+        public Cart(int userId)
         {
             InitializeComponent();
             vm = new CartViewModel();
-            this.CartListView.ItemsSource = vm.carts;
+            vm.FetcyByUserAsync(userId);
+            BindingContext = vm;
         }
     }
 }

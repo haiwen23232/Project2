@@ -3,46 +3,48 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="shop.View.Account">
-    <ScrollView>
+    <NavigationPage.TitleView>
+        <Label Text=" Account" FontSize="24" VerticalOptions="Center"/>
+    </NavigationPage.TitleView>
 
-        <StackLayout
-            Margin="20"
-            Orientation="Vertical">
+    <ContentPage.Content>
 
-            <Label Text="Account" Margin="0,20" FontSize="32"/>
+        <ScrollView>
+            <StackLayout Margin="20" Orientation="Vertical">
 
-            <StackLayout Orientation="Horizontal">
-                <Label Text="User name: " />
-                <Label
-                    x:Name="AccountUserName"
-                    Text="User name" />
+                <StackLayout Orientation="Horizontal" >
+                    <Label Text="User name: " />
+                    <Label
+                        x:Name="AccountUserName"
+                        Text="{Binding User.Name}" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Email: " />
+                    <Label
+                        x:Name="AccountEmail"
+                        Text="{Binding User.Email}" />
+                </StackLayout>
+
+                <Label Text="Change password" Margin="0,10" FontSize="20"/>
+
+                <Label Text="New password"/>
+                <Entry
+                    x:Name="AccountPassword" IsPassword="True" />
+
+                <Label Text="Confirm password"/>
+                <Entry x:Name="AccountPasswordConfirm" IsPassword="True" />
+
+                <Button
+                    Margin="0,10"
+                    HorizontalOptions="Center"
+                    x:Name="AccountSubmit"
+                    Text="Submit"
+                    FontSize="18"
+                    Clicked="Submit"/>
+
             </StackLayout>
+        </ScrollView>
 
-            <StackLayout Orientation="Horizontal">
-                <Label Text="Email: " />
-                <Label
-                    x:Name="AccountEmail"
-                    Text="Email" />
-            </StackLayout>
-
-            <Label Text="Change password" Margin="0,10" FontSize="20"/>
-
-            <Label Text="New password"/>
-            <Entry
-                x:Name="AccountPassword" IsPassword="True" />
-
-            <Label Text="Confirm password"/>
-            <Entry x:Name="AccountPasswordConfirm" IsPassword="True" />
-
-            <Button
-                Margin="0,10"
-                HorizontalOptions="Center"
-                x:Name="AccountSubmit"
-                Text="Submit"
-                FontSize="18"
-                Clicked="Submit"/>
-
-        </StackLayout>
-
-    </ScrollView>
+    </ContentPage.Content>
 </ContentPage>

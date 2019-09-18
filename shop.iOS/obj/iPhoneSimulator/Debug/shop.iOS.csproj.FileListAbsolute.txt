@@ -1,5 +1,8 @@
 /Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/shop.iOS.exe
 /Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/shop.iOS.pdb
+/Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/System.Net.Http.Formatting.dll
+/Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.Bson.dll
 /Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
 /Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
 /Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll

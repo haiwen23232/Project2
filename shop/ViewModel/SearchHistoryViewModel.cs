@@ -11,7 +11,12 @@ namespace shop.ViewModel
 
         public SearchHistoryViewModel()
         {
-            histories = new SearchHistory().GetHistories();
+            histories = new List<SearchHistory>()
+            {
+                new SearchHistory(){History = "Adidas" },
+                new SearchHistory(){History = "t-s" },
+                new SearchHistory(){History = "sneaker" }
+            };
         }
     }
 }

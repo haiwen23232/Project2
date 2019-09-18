@@ -1,4 +1,5 @@
 ﻿using System;
+using shop.View;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,6 +13,7 @@ namespace shop
 
             // MainPage = new MainPage();
             MainPage = new NavigationPage(new MainPage());
+            // MainPage = new NavigationPage(new SessionsPage());
         }
 
         protected override void OnStart()

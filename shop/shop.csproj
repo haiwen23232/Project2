@@ -12,13 +12,17 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="View\" />
     <Folder Include="Model\" />
     <Folder Include="ViewModel\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="View\Shop.cs" />
+    <Compile Remove="Model\CartItem.cs" />
   </ItemGroup>
 </Project>
