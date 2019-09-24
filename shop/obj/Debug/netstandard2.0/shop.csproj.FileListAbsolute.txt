@@ -18,3 +18,5 @@
 /Users/qingyun/Documents/shop/shop/shop/bin/Debug/netstandard2.0/shop.pdb
 /Users/qingyun/Documents/shop/shop/shop/obj/Debug/netstandard2.0/shop.csprojAssemblyReference.cache
 /Users/qingyun/Documents/shop/shop/shop/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/qingyun/Documents/shop/shop/shop/obj/Debug/netstandard2.0/View/AfterLogin.xaml.g.cs
+/Users/qingyun/Documents/shop/shop/shop/obj/Debug/netstandard2.0/View/FBLogin.xaml.g.cs

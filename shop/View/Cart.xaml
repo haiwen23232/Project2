@@ -10,8 +10,11 @@
 
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Margin="20" Orientation="Vertical" >
-                <ListView x:Name="CartListView" HasUnevenRows="True" ItemsSource="{Binding CartsList}">
+            <StackLayout Margin="24" Orientation="Vertical" >
+
+                <Label x:Name="totalPrice" FontSize="20" Text="Total price: "/>
+
+                <ListView x:Name="CartListView" HasUnevenRows="True" ItemsSource="{Binding CartsList}" IsPullToRefreshEnabled="True">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>

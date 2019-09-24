@@ -20,6 +20,7 @@ namespace shop.View
 
             this.ProductName.Text = product.Name;
             this.ProductPrice.Text = "Price: $ " + product.Price;
+            this.ProductImage.Source = product.Image;
         }
 
         public async void AddToCart(object o, System.EventArgs e)

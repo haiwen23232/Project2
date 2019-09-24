@@ -6,10 +6,11 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using shop.Model;
+using shop.View;
 using shop.ViewModel;
 using Xamarin.Forms;
 
-namespace shop
+namespace shop.View
 {
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
@@ -56,6 +57,11 @@ namespace shop
         private async void SignUp(object o, System.EventArgs e)
         {
             await Navigation.PushAsync(new SignUp());
+        }
+
+        private async void FbLogin(object o, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new FBLogin());
         }
 
         private string SimpleMD5(string inputPwd)

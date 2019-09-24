@@ -32,6 +32,26 @@ namespace shop.Data
             return result;
         }
 
+        public User GetUSerByEmail(string email)
+        {
+            string url = URL + "users/GetByEmailUser/" + email;
+            User user = null;
+            try
+            {
+                var response = client.GetAsync(url).Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = response.Content.ReadAsStringAsync().Result;
+                    user = JsonConvert.DeserializeObject<User>(content);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(@"       Error{0} ", ex.Message + " Error from Get user by EMAIL");
+            }
+            return user;
+        }
+
         public User FetchUserByNameAsync(string name)
         {
             string url = URL + "users/GetByname/" + name;
@@ -99,6 +119,22 @@ namespace shop.Data
             {
                 Debug.WriteLine(@"       Error{0} ", ex.Message + " Error from UPDATE");
             }
+        }
+
+        public int GetFBUser(string token)
+        {
+            HttpClient httpClient = new HttpClient();
+            var json = httpClient.GetStringAsync($"https://graph.facebook.com/me?fields=email,name&access_token={token}").Result;
+            FacebookUser facebookUser = JsonConvert.DeserializeObject<FacebookUser>(json);
+            facebookUser.Email = facebookUser.Email.Replace(@"\u0040", "@");
+            User fbUser = new User { Name = facebookUser.Name, Email = facebookUser.Email };
+            User dbUser = GetUSerByEmail(fbUser.Email);
+            if (GetUSerByEmail(fbUser.Email) == null)
+            {
+                CreateUser(fbUser).Wait();
+                dbUser = GetUSerByEmail(fbUser.Email);
+            }
+            return dbUser.UserId;
         }
     }
 }

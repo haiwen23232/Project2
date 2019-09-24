@@ -10,10 +10,10 @@
 
     <ContentPage.Content>
         <StackLayout Margin="10,20">
-            <Label x:Name="ProductName" FontSize="18" Text="product" HorizontalOptions="Center" />
-            <Label x:Name="ProductPrice" FontSize="14" Text="price" HorizontalOptions="Center" />
+            <Label x:Name="ProductName" FontSize="28" Text="product" HorizontalOptions="Center"/>
+            <Label x:Name="ProductPrice" FontSize="24" Text="price" HorizontalOptions="Center"/>
 
-            <Image Source="basket.png" />
+            <Image x:Name="ProductImage" Margin="0,20"/>
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                 <Label Text="Quantity: " Margin="0,5"/>

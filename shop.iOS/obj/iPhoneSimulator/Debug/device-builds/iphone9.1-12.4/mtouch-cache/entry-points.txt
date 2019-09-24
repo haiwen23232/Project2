@@ -55,13 +55,41 @@ Function=xamarin_log
 	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
 Function=xamarin_get_locale_country_code
 	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_AcceptSecContext
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Wrap
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Unwrap
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
+	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_find_protocol_wrapper_type
 	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_release_block_on_main_thread
 	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
-Function=xamarin_start_wwan
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
 Function=xamarin_get_block_descriptor
 	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_simd__NMatrix4_objc_msgSend
@@ -1024,34 +1052,6 @@ Function=xamarin_localized_string_format_9
 	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_init_nsthread
 	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
-Function=NetSecurityNative_ReleaseGssBuffer
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DisplayMinorStatus
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DisplayMajorStatus
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ImportUserName
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ImportPrincipalName
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ReleaseName
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitiateCredSpNego
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitiateCredWithPassword
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ReleaseCred
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitSecContext
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_AcceptSecContext
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DeleteSecContext
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_Wrap
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_Unwrap
-	/Users/qingyun/Documents/shop/shop/shop.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-12.4/mtouch-cache/1-Link/System.dll
 Function=mono_pmip
 Function=xamarin_dyn_objc_msgSend
 Function=xamarin_dyn_objc_msgSendSuper

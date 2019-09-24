@@ -36,6 +36,11 @@ namespace shop.ViewModel
             await cartsManager.CreateCart(cart);
         }
 
+        public string TotalPrice(int userId)
+        {
+            return cartsManager.GetUserTotal(userId);
+        }
+
         public CartViewModel()
         { 
         }

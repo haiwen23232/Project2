@@ -70,3 +70,5 @@
 /Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
 /Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
 /Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.sqlite3.dll
+/Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/Xamarin.Auth.dll
+/Users/qingyun/Documents/shop/shop/shop.iOS/bin/iPhoneSimulator/Debug/Xamarin.Auth.pdb

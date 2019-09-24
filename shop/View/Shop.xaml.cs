@@ -27,7 +27,7 @@ namespace shop.View
             await Navigation.PushAsync(new ProductPage(SearchBar.Text,userId));
         }
 
-        private async void SearchByHistory(object o,ItemTappedEventArgs e)
+        private async void SearchByHistory(object o, ItemTappedEventArgs e)
         {
             var item = e.Item as SearchHistory;
             await Navigation.PushAsync(new ProductPage(item.HistoryStr, userId));

@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="shop.MainPage">
+             x:Class="shop.View.MainPage">
     <ScrollView>
 
         <StackLayout Margin="30">
@@ -44,6 +44,12 @@
                     Margin="20,10"
                     Clicked="SignUp"/>
             </StackLayout>
+
+            <Button
+                Text="Login using Facebook" 
+                HorizontalOptions="Center" 
+                Clicked="FbLogin" />
+
 
     </StackLayout>
 

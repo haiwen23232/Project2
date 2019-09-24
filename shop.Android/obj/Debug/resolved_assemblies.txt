@@ -5,7 +5,14 @@
 /Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/mscorlib.dll
 /Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/Newtonsoft.Json.Bson.dll
 /Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/Newtonsoft.Json.dll
+/Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/Plugin.MtSql.dll
 /Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/shop.dll
+/Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/SQLite-net.dll
+/Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/SQLitePCLRaw.batteries_green.dll
+/Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/SQLitePCLRaw.batteries_v2.dll
+/Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/SQLitePCLRaw.core.dll
+/Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/SQLitePCLRaw.provider.e_sqlite3.dll
 /Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/System.Core.dll
 /Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/System.dll
 /Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/System.Net.Http.Formatting.dll
@@ -80,4 +87,8 @@
 /Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/System.IO.Compression.FileSystem.dll
 /Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/System.ComponentModel.Composition.dll
 /Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/System.Web.Services.dll
+/Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/System.Linq.Expressions.dll
+/Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/System.Reflection.dll
+/Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/System.Threading.dll
+/Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/System.Reflection.Extensions.dll
 /Users/qingyun/Documents/shop/shop/shop.Android/obj/Debug/android/assets/Mono.Security.dll

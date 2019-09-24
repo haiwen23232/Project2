@@ -44,5 +44,24 @@ namespace shop.Data
                 Debug.WriteLine(@"       Error{0} ", ex.Message + " Error from CREATE");
             }
         }
+
+        public string GetUserTotal(int userId)
+        {
+            string url = URL + "carts/GetUserTotal/" + userId;
+            string totalPrice = "0";
+            try
+            {
+                var response = client.GetAsync(url).Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    totalPrice = response.Content.ReadAsStringAsync().Result;
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(@"       Error{0} ", ex.Message + " Error from TotalPrice");
+            }
+            return totalPrice;
+        }
     }
 }
